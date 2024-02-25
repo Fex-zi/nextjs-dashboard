@@ -16,9 +16,9 @@ export default function Page() {
         {/* <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent        border-r-transparent" /> */}
         <div className={styles.shape} />
         <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Acme.</strong> Check out other projects{' '}
+            <strong>Welcome to Acme.</strong> Check out other projects at {' '}
             <a href="https://fexzihub.com" className="text-blue-500">
-              at Fexzihub
+              Fexzihub
             </a>
             , brought to you by Fexzi & Vercel.
           </p>
